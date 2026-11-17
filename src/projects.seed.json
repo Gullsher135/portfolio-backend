@@ -1,0 +1,215 @@
+{
+  "owner": {
+    "name": "Gulsher Malik",
+    "title": "Full-Stack Web Developer",
+    "location": "Kohat, Pakistan",
+    "github": "https://github.com/Gullsher135"
+  },
+  "projects": [
+    {
+      "id": "nexonez-time",
+      "title": "NexoneZ Time - Attendance System",
+      "tagline": "Check-in, QR scanning, leave and reports for staff, interns and students.",
+      "year": 2026,
+      "description": "A mobile-first attendance platform. Employees and interns check in and out (button or rotating office QR code), request leave and see their month. Admins manage people and batches, mark class attendance for students, approve leave and export CSV reports. All times follow Pakistan time.",
+      "highlights": [
+        "QR check-in with a code that rotates every 60 seconds",
+        "Optional location and office-network checks",
+        "Student class attendance per batch and day",
+        "Leave approval, monthly reports and CSV export",
+        "JWT login, rate limiting, role-based admin access"
+      ],
+      "stack": [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "JWT"
+      ],
+      "links": {
+        "live": "https://nexonez-attendance.vercel.app",
+        "github": "https://github.com/Gullsher135/nexone-z-time-frontend",
+        "githubBackend": "https://github.com/Gullsher135/nexone-z-time-backend"
+      },
+      "screenshots": [
+        "/screenshots/attendance-admin-desktop.jpg",
+        "/screenshots/attendance-admin-mobile.jpg",
+        "/screenshots/attendance-login.jpg"
+      ]
+    },
+    {
+      "id": "health-ways-pharmacy",
+      "title": "Health Ways - Pharmacy Management System",
+      "tagline": "Batch-level stock traceability, FEFO point of sale and supplier tracking.",
+      "year": 2026,
+      "description": "A hospital pharmacy system designed around full traceability. Every delivery becomes its own batch with supplier, price, quantity and expiry, and sales automatically use the earliest-expiry batch first (FEFO). Includes point of sale, supplier credit tracking, returns, expiry and low-stock alerts, user roles and analytics.",
+      "highlights": [
+        "Batch and lot traceability from purchase to sale",
+        "FEFO point of sale",
+        "Supplier balances, purchase orders and goods received notes",
+        "Expiry tracker and low-stock alerts",
+        "Role-based access and reports"
+      ],
+      "stack": [
+        "React",
+        "Vite",
+        "Recharts",
+        "Lucide Icons",
+        "Tailwind CSS",
+        "TypeScript (prototype)"
+      ],
+      "links": {
+        "live": "",
+        "github": "https://github.com/Gullsher135/pharmacy-demo-system"
+      },
+      "screenshots": [
+        "/screenshots/pharmacy-dashboard.jpg",
+        "/screenshots/pharmacy-pos.jpg",
+        "/screenshots/pharmacy-stock.jpg",
+        "/screenshots/pharmacy-reports.jpg",
+        "/screenshots/pharmacy-proto-dashboard.jpg",
+        "/screenshots/pharmacy-proto-inventory.jpg",
+        "/screenshots/pharmacy-proto-expiry.jpg"
+      ]
+    },
+    {
+      "id": "nexone-clinic",
+      "title": "Nexone Clinic - Clinic Management and EHR",
+      "tagline": "Reception, doctor, lab, pharmacy and billing in one role-based system.",
+      "year": 2026,
+      "description": "A clinic management and EHR product with a marketing landing page, a role-based application and a real-time backend. Staff get dedicated desks (reception, doctor, lab, pharmacy, cashier) plus an admin portal with dashboard metrics and patient records.",
+      "highlights": [
+        "Role-based desks: admin, reception, doctor, lab, pharmacy, counter",
+        "Real-time updates with Socket.IO",
+        "Patient registration, records and billing",
+        "Landing page built for early go-to-market"
+      ],
+      "stack": [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Socket.IO",
+        "JWT",
+        "Multer"
+      ],
+      "links": {
+        "live": "",
+        "github": "https://github.com/Gullsher135/cms-frontend",
+        "githubBackend": "https://github.com/Gullsher135/cms-backend",
+        "githubLanding": "https://github.com/Gullsher135/cms-landing"
+      },
+      "screenshots": [
+        "/screenshots/clinic-landing.jpg",
+        "/screenshots/clinic-dashboard.jpg",
+        "/screenshots/clinic-patient-registration.jpg"
+      ]
+    },
+    {
+      "id": "nexonez-website",
+      "title": "NexoneZ Software House Website",
+      "tagline": "Company website with a 3D hero, services, portfolio and workflow sections.",
+      "year": 2026,
+      "description": "Marketing website for NexoneZ Software House, presenting services, industries, workflow and portfolio with a dark gradient design and a 3D-style hero.",
+      "highlights": [
+        "Responsive multi-section layout",
+        "Services, industries, workflow and portfolio sections"
+      ],
+      "stack": [
+        "React",
+        "React Router",
+        "CSS",
+        "React Icons"
+      ],
+      "links": {
+        "live": "",
+        "github": "https://github.com/Gullsher135/nexone-z"
+      },
+      "screenshots": [
+        "/screenshots/nexonez-website.jpg"
+      ]
+    },
+    {
+      "id": "ha-enterprises",
+      "title": "HA Enterprises - Business Accounts (Khata) App",
+      "tagline": "Customers, suppliers, ledger, invoices, stock and profit in one place.",
+      "year": 2026,
+      "description": "An accounting app for a local business: parties and ledgers, invoices, purchases, payments, stock, expenses, profit and loss, backups and data import.",
+      "highlights": [
+        "Party ledger with date filters and corrections",
+        "Invoices, payments, purchases and stock",
+        "Profit and loss and supplier reports",
+        "Backups and CSV import"
+      ],
+      "stack": [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "links": {
+        "live": "",
+        "github": "https://github.com/Gullsher135/ha-frontend"
+      },
+      "screenshots": [
+        "/screenshots/ha-login.jpg"
+      ]
+    },
+    {
+      "id": "madina-lims",
+      "title": "Al Madina Laboratory - LIMS",
+      "tagline": "Patients, test types, blood tests and final lab reports.",
+      "year": 2025,
+      "description": "A laboratory information management system: patient records, configurable test types, blood tests and printable reports with charts.",
+      "highlights": [
+        "Patient and test-type management",
+        "Blood test entry and final reports",
+        "Charts for report data"
+      ],
+      "stack": [
+        "React",
+        "Chart.js",
+        "Axios",
+        "Moment.js",
+        "React Router"
+      ],
+      "links": {
+        "live": "",
+        "github": "https://github.com/Gullsher135/madina-lims"
+      },
+      "screenshots": [
+        "/screenshots/madina-lims-login.jpg"
+      ]
+    },
+    {
+      "id": "speakease",
+      "title": "SpeakEase - Gesture and Emotion Communication App",
+      "tagline": "Android app that turns gestures and emotion context into English and Urdu speech.",
+      "year": 2026,
+      "description": "A final-year-project style Android prototype built with Kotlin and Jetpack Compose. A pipeline converts recognised gestures plus emotion context (neutral, urgent, confused) into sentences, spoken offline in English and Urdu. Includes sentence history, settings and a Gesture Guide.",
+      "highlights": [
+        "Offline-first with on-device text-to-speech",
+        "Bilingual output: English and Urdu",
+        "MediaPipe and TensorFlow Lite integration points"
+      ],
+      "stack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Material 3",
+        "MediaPipe",
+        "TensorFlow Lite"
+      ],
+      "links": {
+        "live": "",
+        "github": "https://github.com/Gullsher135/speak-ease"
+      },
+      "screenshots": [
+        "/screenshots/speakease-card.jpg"
+      ]
+    }
+  ]
+}

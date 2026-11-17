@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: gulsher-portfolio-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: CLIENT_URL
+        sync: false
+      - key: ADMIN_KEY
+        sync: false
